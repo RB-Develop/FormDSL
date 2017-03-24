@@ -1,4 +1,4 @@
-package test.ql;
+package ql;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;

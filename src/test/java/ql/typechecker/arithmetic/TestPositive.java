@@ -1,4 +1,4 @@
-package test.ql.typechecker.arithmetic;
+package ql.typechecker.arithmetic;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import test.ql.typechecker.BaseTest;
+import ql.typechecker.BaseTest;
 
 @RunWith(value = Parameterized.class)
 public class TestPositive extends BaseTest {

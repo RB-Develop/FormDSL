@@ -1,17 +1,17 @@
-package test.ql.typechecker;
+package ql.typechecker;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
-import test.ql.typechecker.relational.TestAnd;
-import test.ql.typechecker.relational.TestEqual;
-import test.ql.typechecker.relational.TestGreater;
-import test.ql.typechecker.relational.TestGreaterOrEqual;
-import test.ql.typechecker.relational.TestLower;
-import test.ql.typechecker.relational.TestLowerOrEqual;
-import test.ql.typechecker.relational.TestNot;
-import test.ql.typechecker.relational.TestNotEqual;
-import test.ql.typechecker.relational.TestOr;
+import ql.typechecker.relational.TestAnd;
+import ql.typechecker.relational.TestEqual;
+import ql.typechecker.relational.TestGreater;
+import ql.typechecker.relational.TestGreaterOrEqual;
+import ql.typechecker.relational.TestLower;
+import ql.typechecker.relational.TestLowerOrEqual;
+import ql.typechecker.relational.TestNot;
+import ql.typechecker.relational.TestNotEqual;
+import ql.typechecker.relational.TestOr;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({

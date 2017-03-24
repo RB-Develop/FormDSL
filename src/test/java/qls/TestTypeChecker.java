@@ -1,9 +1,9 @@
-package test.qls;
+package qls;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
-import test.qls.typechecker.TestStatement;
+import qls.typechecker.TestStatement;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({

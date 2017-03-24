@@ -1,17 +1,17 @@
-package test.ql.evaluator;
+package ql.evaluator;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
-import test.ql.evaluator.relational.TestAnd;
-import test.ql.evaluator.relational.TestEqual;
-import test.ql.evaluator.relational.TestGreater;
-import test.ql.evaluator.relational.TestGreaterOrEqual;
-import test.ql.evaluator.relational.TestLower;
-import test.ql.evaluator.relational.TestLowerOrEqual;
-import test.ql.evaluator.relational.TestNot;
-import test.ql.evaluator.relational.TestNotEqual;
-import test.ql.evaluator.relational.TestOr;
+import ql.evaluator.relational.TestAnd;
+import ql.evaluator.relational.TestEqual;
+import ql.evaluator.relational.TestGreater;
+import ql.evaluator.relational.TestGreaterOrEqual;
+import ql.evaluator.relational.TestLower;
+import ql.evaluator.relational.TestLowerOrEqual;
+import ql.evaluator.relational.TestNot;
+import ql.evaluator.relational.TestNotEqual;
+import ql.evaluator.relational.TestOr;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({

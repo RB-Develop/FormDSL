@@ -1,12 +1,12 @@
-package test.ql.typechecker;
+package ql.typechecker;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
-import test.ql.typechecker.literal.TestBooleanLiteral;
-import test.ql.typechecker.literal.TestFloatLiteral;
-import test.ql.typechecker.literal.TestIntegerLiteral;
-import test.ql.typechecker.literal.TestStringLiteral;
+import ql.typechecker.literal.TestBooleanLiteral;
+import ql.typechecker.literal.TestFloatLiteral;
+import ql.typechecker.literal.TestIntegerLiteral;
+import ql.typechecker.literal.TestStringLiteral;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({

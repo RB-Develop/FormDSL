@@ -1,4 +1,4 @@
-package test.ql.typechecker;
+package ql.typechecker;
 
 import java.util.Arrays;
 import java.util.Collection;

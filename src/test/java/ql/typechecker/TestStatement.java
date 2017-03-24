@@ -1,12 +1,12 @@
-package test.ql.typechecker;
+package ql.typechecker;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
-import test.ql.typechecker.statement.TestComputedQuestion;
-import test.ql.typechecker.statement.TestForm;
-import test.ql.typechecker.statement.TestIf;
-import test.ql.typechecker.statement.TestQuestion;
+import ql.typechecker.statement.TestComputedQuestion;
+import ql.typechecker.statement.TestForm;
+import ql.typechecker.statement.TestIf;
+import ql.typechecker.statement.TestQuestion;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({

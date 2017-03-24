@@ -1,4 +1,4 @@
-package test.qls.typechecker.statement;
+package qls.typechecker.statement;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import test.qls.typechecker.BaseTest;
+import qls.typechecker.BaseTest;
 
 @RunWith(value = Parameterized.class)
 public class TestDefault extends BaseTest {

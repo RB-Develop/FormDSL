@@ -1,4 +1,4 @@
-package test.ql.evaluator;
+package ql.evaluator;
 
 import static org.junit.Assert.assertEquals;
 

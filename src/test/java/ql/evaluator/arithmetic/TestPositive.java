@@ -1,4 +1,4 @@
-package test.ql.evaluator.arithmetic;
+package ql.evaluator.arithmetic;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -11,7 +11,7 @@ import ql.Value;
 import ql.value.FloatValue;
 import ql.value.IntegerValue;
 import ql.value.UndefinedValue;
-import test.ql.evaluator.BaseTest;
+import ql.evaluator.BaseTest;
 
 @RunWith(value = Parameterized.class)
 public class TestPositive extends BaseTest {

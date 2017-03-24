@@ -1,4 +1,4 @@
-package test.ql.evaluator.relational;
+package ql.evaluator.relational;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -10,7 +10,7 @@ import org.junit.runners.Parameterized.Parameters;
 import ql.Value;
 import ql.value.BooleanValue;
 import ql.value.UndefinedValue;
-import test.ql.evaluator.BaseTest;
+import ql.evaluator.BaseTest;
 
 @RunWith(value = Parameterized.class)
 public class TestGreaterOrEqual extends BaseTest {

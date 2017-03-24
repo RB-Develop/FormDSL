@@ -1,14 +1,14 @@
-package test.ql;
+package ql;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
-import test.ql.typechecker.TestArithmetic;
-import test.ql.typechecker.TestCompatibility;
-import test.ql.typechecker.TestIdentifier;
-import test.ql.typechecker.TestLiteral;
-import test.ql.typechecker.TestRelational;
-import test.ql.typechecker.TestStatement;
+import ql.typechecker.TestArithmetic;
+import ql.typechecker.TestCompatibility;
+import ql.typechecker.TestIdentifier;
+import ql.typechecker.TestLiteral;
+import ql.typechecker.TestRelational;
+import ql.typechecker.TestStatement;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({

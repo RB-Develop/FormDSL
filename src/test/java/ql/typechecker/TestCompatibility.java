@@ -1,4 +1,4 @@
-package test.ql.typechecker;
+package ql.typechecker;
 
 import static org.junit.Assert.assertEquals;
 

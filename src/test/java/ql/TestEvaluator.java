@@ -1,11 +1,11 @@
-package test.ql;
+package ql;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
-import test.ql.evaluator.TestArithmetic;
-import test.ql.evaluator.TestLiteral;
-import test.ql.evaluator.TestRelational;
+import ql.evaluator.TestArithmetic;
+import ql.evaluator.TestLiteral;
+import ql.evaluator.TestRelational;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({

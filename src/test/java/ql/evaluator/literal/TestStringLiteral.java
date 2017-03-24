@@ -1,4 +1,4 @@
-package test.ql.evaluator.literal;
+package ql.evaluator.literal;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -9,7 +9,7 @@ import org.junit.runners.Parameterized.Parameters;
 
 import ql.Value;
 import ql.value.StringValue;
-import test.ql.evaluator.BaseTest;
+import ql.evaluator.BaseTest;
 
 @RunWith(value = Parameterized.class)
 public class TestStringLiteral extends BaseTest {

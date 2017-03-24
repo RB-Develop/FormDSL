@@ -1,9 +1,9 @@
-package test.ql.evaluator;
+package ql.evaluator;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
-import test.ql.evaluator.literal.TestBooleanLiteral;
+import ql.evaluator.literal.TestBooleanLiteral;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({

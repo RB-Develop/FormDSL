@@ -1,14 +1,14 @@
-package test.ql.typechecker;
+package ql.typechecker;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
-import test.ql.typechecker.arithmetic.TestAddition;
-import test.ql.typechecker.arithmetic.TestDivision;
-import test.ql.typechecker.arithmetic.TestMultiplication;
-import test.ql.typechecker.arithmetic.TestNegation;
-import test.ql.typechecker.arithmetic.TestPositive;
-import test.ql.typechecker.arithmetic.TestSubtraction;
+import ql.typechecker.arithmetic.TestAddition;
+import ql.typechecker.arithmetic.TestDivision;
+import ql.typechecker.arithmetic.TestMultiplication;
+import ql.typechecker.arithmetic.TestNegation;
+import ql.typechecker.arithmetic.TestPositive;
+import ql.typechecker.arithmetic.TestSubtraction;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
