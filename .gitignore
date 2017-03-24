@@ -1,0 +1,18 @@
+bin/
+*.class
+
+# Package Files #
+*.war
+*.ear
+
+.settings
+
+
+/sonar-project.properties
+
+/.sonar
+/target/
+
+.idea
+.project
+.classpath
